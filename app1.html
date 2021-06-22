@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+	table{
+		font-family: arial,sanserif;
+		border: 1px solid black;
+		border-collapse :collapse;
+		width:100%;
+	}
+	td, th {
+  			border: 1px solid #dddddd;
+  			text-align: left;
+  			padding: 8px;
+		}
+
+	body{
+ 		background-color: violet;
+	   }
+	
+	 h1{
+       		text-align: center;
+    		color:green; font-size:22px;
+	  }
+
+	h2{
+		color:pink; font-size:15px;
+	  }
+
+	p{
+ 		color:blue; font-size:15px;
+	 }
+
+</style>
+<body>
+	<h1> wellcome to this app </h1>
+	<h2> here  you go choose your mood :- </h2>
+   
+ 	<label for="mood">Choose a mood:</label>
+  <select name="mooods" id="mooods">
+    <option value="happy">happy</option>
+    <option value="peace">peace</option>
+    <option value="lonely">lonely</option>
+    <option value="dont know">dont know</option>
+
+</select>
+<h2>here you go choose  a song: </h2>
+ 	<label for="happy">Choose a song:</label>
+  <select name="happy" id="happy">
+    <option value="ik">ik</option>
+    <option value="do">do</option>
+    <option value="teen">teen</option>
+    <option value="char">char</option>	
+	</select>
+<h2> here u go quotes</h2> 
+<p id="demo">a slience can make a heart or break a heart.</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'if  u want to fly give up everthing  weighs u down'">Click Me!</button>
+
+
+</body>
+</head>
+</html>
+ 
